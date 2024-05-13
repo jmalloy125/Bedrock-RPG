@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brpg_items:new_shield"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#I#",
+      "###",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "tag": "minecraft:planks"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "brpg_items:new_shield"
+    },
+    "priority": -1
+  }
+}

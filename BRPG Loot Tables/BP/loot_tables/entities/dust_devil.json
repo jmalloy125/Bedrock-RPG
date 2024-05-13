@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty",
+					"weight": 1021
+				},
+				{
+					"type": "item",
+					"name": "brpg_items:dragon_chainbody",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "brpg_items:dragon_med_helm",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "brpg_items:dragon_platelegs",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "brpg_items:dragon_boots",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

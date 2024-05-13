@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "brpg_mob:dust_devil",
+			"materials": {
+				"default": "iron_golem"
+			},
+			"textures": {
+				"default": "textures/entity/dust_devil"
+			},
+			"geometry": {
+				"default": "geometry.dust_devil"
+			},
+			"animations": {
+				"walk": "animation.dust_devil.walk",
+				"move": "animation.dust_devil.move",
+				"walk_to_target": "animation.dust_devil.walk",
+				"move_to_target": "animation.dust_devil.move",
+				"attack": "animation.dust_devil.attack",
+				"look_at_target": "animation.common.look_at_target",
+				"move_controller": "controller.animation.dust_devil.move_controller"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target",
+					"move_controller"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#b89029",
+				"overlay_color": "#747640"
+			}
+		}
+	}
+}

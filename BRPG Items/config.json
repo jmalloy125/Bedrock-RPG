@@ -1,0 +1,45 @@
+{
+	"type": "minecraftBedrock",
+	"name": "BRPG Items",
+	"namespace": "brpg_items",
+	"authors": [
+		"Jonathan Penny"
+	],
+	"targetVersion": "1.20.80",
+	"description": "Bedrock RPG Items",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": false,
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": true,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "BRPG Items"
+				}
+			]
+		]
+	},
+	"bridge": {}
+}

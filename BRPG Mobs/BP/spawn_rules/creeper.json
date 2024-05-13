@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "minecraft:creeper",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 0
+        }
+        //This should disable creepers
+      }
+    ]
+  }
+}

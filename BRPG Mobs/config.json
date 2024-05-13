@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "BRPG Mobs",
+	"namespace": "brpg_mob",
+	"authors": [
+		"Valdac"
+	],
+	"targetVersion": "1.20.80",
+	"description": "Mobs for Bedrock RPG",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": false,
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": true,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "BRPG Mobs"
+				}
+			]
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"texture_data": {
+		"diamond_shard": {
+			"textures": "textures/items/diamond_shard"
+		},
+		"dragon_boots": {
+			"textures": "textures/items/dragon_boots"
+		},
+		"dragon_platelegs": {
+			"textures": "textures/items/dragon_platelegs"
+		},
+		"dragon_chainbody": {
+			"textures": "textures/items/dragon_chainbody"
+		},
+		"shield_left_half": {
+			"textures": "textures/items/shield_left_half"
+		},
+		"shield_right_half": {
+			"textures": "textures/items/shield_right_half"
+		},
+		"dragon_sq_shield": {
+			"textures": "textures/items/dragon_sq_shield"
+		},
+		"new_shield": {
+			"textures": "textures/items/new_shield"
+		},
+		"dragon_med_helm": {
+			"textures": "textures/items/dragon_med_helm"
+		}
+	},
+	"resource_pack_name": "BRPG Items",
+	"texture_name": "atlas.items"
+}

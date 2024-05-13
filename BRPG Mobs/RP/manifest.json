@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Valdac"
+		]
+	},
+	"header": {
+		"name": "BRPG Mobs",
+		"description": "Mobs for Bedrock RPG",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "ebb2ae4a-0896-48d3-9178-72b1b14a259b",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "74c0ebc2-5bad-47d2-944c-91106db822a6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b50ff53d-f7fe-49e6-902c-8d1a08ce79a7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

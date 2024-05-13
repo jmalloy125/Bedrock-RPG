@@ -1,0 +1,25 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"brpg_mob:dust_devil": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [0.1, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "brpg_items:new_shield",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "new_shield"
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:iron_tier",
+					"brpg:shield"
+				]
+			}
+		}
+	}
+}

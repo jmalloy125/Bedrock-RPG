@@ -1,0 +1,67 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Valdac"
+		]
+	},
+	"header": {
+		"name": "BRPG Items",
+		"description": "Bedrock RPG Items",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "13b0960f-46b8-48aa-8418-b501949efea0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "4653d2f3-6482-4984-833f-a1ec17173a60",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "Items Behaviour",
+			"type": "script",
+			"uuid": "b30ae673-fb1c-41c4-ab52-9a565bad73a8",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		},
+		{
+			"uuid": "1065e598-33a6-4f1e-a76d-4fb89eba62b7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "02dff24a-4d61-408a-9cca-7794d040786f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

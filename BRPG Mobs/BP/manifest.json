@@ -1,0 +1,75 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Valdac"
+		]
+	},
+	"header": {
+		"name": "BRPG Mobs",
+		"description": "Mobs for Bedrock RPG",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "b50ff53d-f7fe-49e6-902c-8d1a08ce79a7",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "cbf0355c-3ad9-49e5-9b16-6144ba1c776b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a7cecdfe-d7df-4b47-98ed-b3a723a5340d",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{ //brpg mobs RP
+			"uuid": "ebb2ae4a-0896-48d3-9178-72b1b14a259b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{ //Brpg loot_tables
+			"uuid": "02dff24a-4d61-408a-9cca-7794d040786f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{ //brpg items
+			"uuid": "13b0960f-46b8-48aa-8418-b501949efea0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		}
+	]
+}
